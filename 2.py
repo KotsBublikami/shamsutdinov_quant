@@ -46,7 +46,7 @@ class Elf(DnD_Character):
     def __init__(self, name, rasa, height):
         super().__init__( name, rasa, height)
     def class_ckills(self):
-        print("дальнобойное оружие")
+        print("дальнобойное оружие для геев")
 
-elf = Elf('gay', 'elf','2 meters')
+elf = Elf('gay ', 'elf','2 meters')
 elf.class_ckills()
